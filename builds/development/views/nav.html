@@ -1,0 +1,37 @@
+<section>
+<a ng-href="#/bio" style="color:black"><h1 class="logo">pettingzoo</h1></a><br>
+<div class="buttons">
+	<ul class="buttons">
+		<li class="buttons">
+			<a href="http://facebook.com/pettingzootheband">
+				<img src="images/facebook-Icon.png" alt="Facebook" title="Facebook">
+			</a>
+		</li>
+		<li class="buttons">
+			<a href="http://soundcloud.com/pettingzootheband">
+				<img src="images/soundcloud-Icon.png" alt="Soundcloud" title="Facebook">
+			</a>
+		</li>
+		<li class="buttons">
+			<a href="http://twitter.com/_pettingzoo">
+				<img src="images/twitter-Icon.png" alt="Twitter" title="Facebook">
+			</a>
+		</li>
+		<li class="buttons">
+			<a href="mailto:pettingzoomedia@gmail.com">
+				<img src="images/email-Icon.png" alt="E-Mail" title="Facebook">
+			</a>
+		</li>
+	</ul>
+	<ul class="links">
+		<a ng-href="#/bio">bio</a> |
+		<a ng-href="#/shows">shows</a> |
+		<a ng-href="#/songs">songs</a> |
+		<a ng-href="#/updates">updates</a>
+
+	</ul>
+</div>
+<div ng-controller="StatusController" ng-show="currentUser">
+<h3>Logged in.</h3> <a ng-click="logout()">Log out</a>
+</div> <!-- Logged in verification -->
+</section>

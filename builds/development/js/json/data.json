@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Matt Petters",
+    "shortname":"m_petters",
+    "instruments":"vocals, guitar, piano, bass, audio engineer",
+    "bio":"Matt has been pluckin strangs a long long time"
+  },
+  {
+    "name":"Cole Hairston",
+    "shortname":"c_hairston",
+    "instruments":"drums, hand percussion, bass (upright and electric)",
+    "bio":"Cole hits stuff on the regular"
+  },
+  {
+    "name":"Jake Aron",
+    "shortname":"j_aron",
+    "instruments":"",
+    "bio":"he let us borrow his mics for an abusrd amount of time"
+  },
+    {
+    "name":"Brandon Engelhardt",
+    "shortname":"b_eng",
+    "instruments":"",
+    "bio":"his contributions to the band have been immeasureable and we're thankful to have had him in the group. we wish him the best of luck"
+  },
+  {
+    "name":"Nate Petters",
+    "shortname":"n_petters",
+    "instruments":"",
+    "bio":"He's chillin and smokin jeebs"
+  }
+]

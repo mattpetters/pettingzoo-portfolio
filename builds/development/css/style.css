@@ -1,0 +1,253 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Helvetica;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #9CF;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Base Styles */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+html {
+  min-height: 100%;
+  height: auto;
+}
+
+
+div.main {
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+	padding: 25px;
+	border: 1px;
+}
+h1.logo {
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 65px;
+	width: 100%;
+}
+
+h2.logo {
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 27px;
+	width: 100%;
+}
+
+
+div.outer {
+	margin: 0 auto;
+	padding: 1px;
+	width: 400px;
+	height: 600px;
+	background: #9CF;
+	text-align: center;
+}
+
+input {
+	width:100%;
+}
+
+button {
+	width:100%;
+}
+
+div.info {
+	background: orange;
+	text-align: center;
+	border: 1px;
+	margin: 10px;
+}
+
+h2.itemName {
+	font-family: Helvetica;
+	font-size: 27px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	font-family: Helvetica;
+}
+
+div.buttons, li {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+ul.links>a {
+	font-size: 25px;
+	font-family: Helvetica;
+	color: black;
+	opacity: 0.2;
+}
+
+ul.links>a:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s ease-in-out;
+}
+
+a img {
+	opacity: 0.2;
+}
+
+a:hover img {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s ease-in-out;
+}
+
+
+p {
+	font-family: Helvetica;
+}
+
+p.main {
+	font-size: 20px;	
+}
+
+div.bio {
+	height:40px;
+	background-color: #80bfff; 
+	overflow: hidden;
+	-webkit-transition-property: height background-color;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-in;
+	-webkit-transition-delay: 0.1s;
+
+}
+
+div.bio:hover {
+	height:300px;
+	overflow: hidden;
+	background-color: #b3d9ff;
+}
+
+div.bio-content {
+}
+
+div.addshow>h1 {
+	font-family: Helvetica;
+	font-size: 22px;
+	text-align: center;
+}
+
+div.addshow {
+	border: solid;
+	background-color: brown;
+}
+
+div.show {
+	background-color: #b3d9ff;
+	border: dashed;
+	opacity: 0.2;
+}
+
+div.show:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s ease-in-out;
+}
+
+div.admin {
+}
+
+div.soundcloudTracks {
+}
+
+h1 {
+	font-size: 27px;
+}
+
+div.blogPost {
+	border: solid;
+	padding: 5px;
+}
+
+h1.blogTitle {
+	background: white;
+	opacity: 1;
+	text-align: center;
+	padding: 10px;
+}
+
+h2.blogDate{
+	font-size: 18px;
+	background: grey;
+	padding: 5px;
+	text-align: center;
+}
+
+p.blogContent {
+	background: white;
+	padding: 10px;
+}
+
+section.login {
+	color: #cce6ff;
+	padding: 10px;
+}
+
+

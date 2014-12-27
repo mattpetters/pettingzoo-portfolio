@@ -1,0 +1,22 @@
+[ 
+	{
+		"name" : "Facebook",
+		"shortname" : "facebook",
+		"link" : "http://facebook.com/pettingzootheband"
+	},
+	{
+		"name" : "Soundcloud",
+		"shortname" : "Soundcloud",
+		"link" : "http://soundcloud.com/pettingzootheband"
+	},
+		{
+		"name" : "Twitter",
+		"shortname" : "Twitter",
+		"link" : "http://twitter.com/_pettingzoo"
+	},
+		{
+		"name" : "E-Mail",
+		"shortname" : "email",
+		"link" : "mailto:pettingzoomedia@gmail.com"
+	},
+]

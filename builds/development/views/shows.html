@@ -1,0 +1,17 @@
+<section>
+		<div id="shows" class="shows">
+			<ul>
+				<li ng-repeat="show in shows">
+					<div id="show" class="show">
+					<a ng-href="{{show.link}}">
+						<h2>{{show.name}}</h2>
+						<h3>{{show.date}}</h3>
+						<p>{{show.details}}</p>
+					</a>
+					</div> <!--Show-->
+				</li>
+			</ul>
+		</div><!-- Shows -->
+	<br>
+<a ng-href="#/bios">Back</a>
+</section>

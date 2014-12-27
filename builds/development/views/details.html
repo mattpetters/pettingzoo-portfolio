@@ -1,0 +1,13 @@
+<section class="memberinfo">
+	<div class="member cf" ng-model="members">
+		<div class="info">
+			<h1>{{members[whichItem].name}}</h1>
+			<h3>{{members[whichItem].instruments}}</h3>
+			<img ng-src="images/{{members[whichItem].shortname}}_tn.jpg" alt="Photo of {{members[whichItem].name}}">
+			<p>
+				{{members[whichItem].bio}}
+			</p>
+		</div>
+	</div>
+	<a href="index.html">&laquo; Back </a>
+</section>

@@ -1,0 +1,19 @@
+<div class="admin">
+		<div class="addshow">
+			<h1>ADMIN CONSOLE</h1>
+			<form name="myForm" ng-submit="addShow()" novalidate>
+				<h1>Add a show</h1>
+				<input type="number" name="number" placeholder="Show Number" 
+				ng-model="show.number" ng-required="true">
+				<input type="name" name="name" placeholder="Show Name" autofocus
+				ng-model="show.name" ng-required="true">
+				<input type="text" name="date" placeholder="Date: MM/DD/YYYY" 
+				ng-model="show.date" ng-required="true">
+				<input type="text" name="link" placeholder="Link" 
+				ng-model="show.link" ng-required="false">
+				<input type="text" name="details" placeholder="Details" 
+				ng-model="show.details" ng-required="false">
+				<button type="submit" class="btn">+</button>
+			</form>
+		</div>
+</div>

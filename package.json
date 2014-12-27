@@ -1,0 +1,15 @@
+{
+  "name": "Pettingzoo",
+  "version": "0.0.1",
+  "description": "An online portfolio for the band Pettingzoo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattpetters/pettingzoo-portfolio.git"
+  },
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^2.2.20",
+    "gulp-webserver": "^0.8.1"
+  }
+}

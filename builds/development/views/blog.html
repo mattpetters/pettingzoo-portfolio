@@ -1,0 +1,25 @@
+<div class="blog">
+	<div class="blogPost" ng-repeat="(key, post) in posts">
+		<h1 class="blogTitle">{{post.title}}</h1>
+		<h2 class="blogDate">{{post.date | date: "MMM d, yy h:mm a"}}</h2>
+		<p class="blogContent">{{post.content}}</p>
+		<br>
+		<button ng-show="currentUser" ng-click="removePost(post.$id)">X</button>
+	</div>
+	<br>
+</div>
+<br><br>
+<div ng-show="isBlogFormOpen">
+	<form name="myForm" ng-submit="addBlogPost()" ng-show="signedIn()" novalidate>
+				<h1>Add a post</h1>
+				<input id="blogTitle" type="name" name="title" placeholder="Title" autofocus
+				ng-model="blog.title" ng-required="true">
+				<textarea type="text" id="blogTextArea"name="content" placeholder="Content" 
+				ng-model="blog.content" ng-required="false" style="width:100%; height:500px"></textarea>
+				<button type="submit" class="btn">+</button>
+	</form>
+</div> 
+<!-- Add blog post -->
+
+<a ng-show="signedIn()" ng-click="isBlogFormOpen = !isBlogFormOpen">Add Blog Post</a>
+<br>
