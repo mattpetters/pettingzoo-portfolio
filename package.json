@@ -2,6 +2,7 @@
   "name": "Pettingzoo",
   "version": "0.0.1",
   "description": "An online portfolio for the band Pettingzoo",
+  "start": "builds/development/js/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattpetters/pettingzoo-portfolio.git"
