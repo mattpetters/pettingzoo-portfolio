@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pettingzoo Portfolio
 This is an application for a Lynda.com course on data-driven Angular.js Applications using FireBase.
 
@@ -9,3 +10,7 @@ This is an application for a Lynda.com course on data-driven Angular.js Applicat
 5. Install gulp.js via the Mac terminal or Gitbash on a PC `> npm install -g gulp`
 5. Run the Gulp command `> gulp`
 6. Fire up your browser at `http://localhost:8080`
+=======
+# pettingzoo-portfolio
+Static portfolio for band Pettingzoo
+>>>>>>> 376819bc1b0ac53775c1040ac8388dcffd7b1207
