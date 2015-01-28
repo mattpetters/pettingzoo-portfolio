@@ -181,7 +181,7 @@ div.bio {
 }
 
 div.bio:hover {
-	height:300px;
+	height:100%;
 	overflow: hidden;
 	background-color: #b3d9ff;
 }
@@ -250,4 +250,12 @@ section.login {
 	padding: 10px;
 }
 
+a:hover{
+	color:white;
+}
+
+.loginBtn {
+	opacity: 0.5;
+	width:75px;
+}
 
